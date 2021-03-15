@@ -40,34 +40,43 @@ body{
   padding-right: 10px;
 }
 
-#showcase{
+/* #showcase{
   background-image: url("../images/bgimage.jpg");
   background-position: center right;
   min-height: 100px;
   margin-bottom: 30px;
   text-align: center;
-}
+} */
 
-#showcase h1{
+/* #showcase h1{
   font-size: 30px;
   line-height: 1.6em
   padding-top: 30px;
+} */
+
+#photoshot{
+  float: left;
+  width:40%;
+  margin-top: 25px;
+  padding 0 0px;
+  box-sizing: border-box;
+  border: 1px solid red;
 }
 
-#main{
-  float: left;
-  width:70%;
-  padding 0 30px;
-  box-sizing: border-box;
+#photoshot img
+{
+  max-width: 100%;
 }
 
 #sidebar{
   float: right;
-  width:30%;
+  width:60%;
   background: #333;
   color: #fff;
+  margin-top: 25px;
   padding: 10px;
   box-sizing: border-box;
+  border: 1px solid red;
 }
 
 #main-footer{
@@ -78,8 +87,8 @@ body{
   margin-top: 40px;
 }
 
-@media(max-width:600px){
-  #main{
+@media(max-width:1000px){
+  #photoshot{
     width: 100%;
     float: none;
   }
