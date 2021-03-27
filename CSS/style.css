@@ -7,64 +7,62 @@ body{
   margin: 0;
 }
 
-.container{
-  width: 80%;
-  margin: auto;
-  overflow: hidden;
+.row::after {
+  content: "aaaa";
+  clear: both;
+  display: table;
 }
 
-#main-header{
+[class*="col-"] {
   float: left;
-  width: 480px;
-  background-color:;
-  color: #000000;
-  font-size: 1.2em;
-  margin-top: 25px;
-  margin-left: 10%;
-  padding 0 0px;
-  box-sizing: border-box;
-  border: 1px solid red;
+  padding-top: 20px;
+  border: 1px solid blue;
 }
-
-#navbar{
-  float: right;
-  width: 310px;
-  margin-top: 25px;
-  margin-right: 10%;
-  margin-left: 10%;
-  box-sizing: border-box;
-  border: 1px solid red;
+.name{
+  padding-left: 8.33%;
 }
-
-#navbar ul{
+.menu{
+  padding-left: 8.33%;
+}
+.menu ul{
   padding: 0;
   list-style: none;
 }
-
-#navbar li{
+.menu li{
   display: inline;
 }
-
-#navbar a{
+.menu a{
   color: #000000;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 20px;
   padding-right: 10px;
 }
-
-/* #showcase{
-  background-image: url("../images/bgimage.jpg");
-  background-position: center right;
-  min-height: 100px;
-  margin-bottom: 30px;
-  text-align: center;
+.icon{
+  box-sizing: border-box;
+  margin-top: 30px;
+  padding-left: 8.33%;
+}
+.icon img{
+  max-width: 70%;
+  display: block;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.icon ul{
+  padding: 0;
+  display: inline-block;
+  list-style: none;
+}
+/* .icon li{
+  display: inline-block;
+  list-style: none;
 } */
+#contacts img{
+  max-width: 10%;
+}
 
-/* #showcase h1{
-  font-size: 30px;
-  line-height: 1.6em
-  padding-top: 30px;
-} */
+
 
 #photoshot{
   float: left;
@@ -83,22 +81,11 @@ body{
   margin-right: auto;
 }
 
-#name{
+/* #name{
   float: left;
   width:40%;
   margin-top: 25px;
-}
-
-#sidebar{
-  float: right;
-  width: 60%;
-  background: ;
-  color: #000000;
-  margin-top: 25px;
-  padding: 10px;
-  box-sizing: border-box;
-  border: 1px solid red;
-}
+} */
 
 #main-footer{
   background: #333;
@@ -108,22 +95,39 @@ body{
   margin-top: 40px;
 }
 
-@media(max-width:850px){
-  #main-header{
-    width: 100%;
-    float: none;
-  }
-  #navbar{
-    width: 100%;
-    float: none;
-  }
-  #photoshot{
-    width: 100%;
-    float: none;
-  }
-  #sidebar{
-    width: 100%;
-    float: none;
-  }
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
 
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 900px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
 }
