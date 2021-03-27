@@ -29,9 +29,9 @@ body{
 #navbar{
   float: right;
   width: 310px;
-  background-color: ;
   margin-top: 25px;
   margin-right: 10%;
+  margin-left: 10%;
   box-sizing: border-box;
   border: 1px solid red;
 }
@@ -83,6 +83,12 @@ body{
   margin-right: auto;
 }
 
+#name{
+  float: left;
+  width:40%;
+  margin-top: 25px;
+}
+
 #sidebar{
   float: right;
   width: 60%;
@@ -102,7 +108,7 @@ body{
   margin-top: 40px;
 }
 
-@media(max-width:600px){
+@media(max-width:850px){
   #main-header{
     width: 100%;
     float: none;
