@@ -73,12 +73,12 @@ p.position{
 .pimg{
   text-align: right;
 }
-.research{
+.research_1{
   box-sizing: border-box;
   margin-top: 10px;
   padding-left: 8.33%;
 }
-.research img{
+.research_1 img{
   max-width: 100%;
   display: block;
   margin-left: auto;
