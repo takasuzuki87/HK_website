@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HirokoKumaki</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+  </head>
+  <body>
+    <div class="row">
+      <div class="col-5 col-s-10 headname">
+        <h1>HIROKO KUMAKI</h1>
+      </div>
+      <div class="col-4 col-s-10 menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">CV</a></li>
+          <li><a href="https://hirokokumaki.com/#research">Research</a></li>
+          <li><a href="#">Teaching</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4 col-s-10 icon">
+        <img src="images/headshot_2.jpeg" alt="face">
+        <h3 class="name">Hiroko Kumaki</h3>
+        <p class="position">Post Doctoral Fellow <br>Dartmouth Society of Fellows</p>
+        <div class="grid-container">
+          <p class="pimg"><img src="images/noun_Email_3809105.png" height="30px" width="30px" alt="email"></p>
+          <p>Hiroko.Kumaki [at] dartmouth.edu</p>
+          <!-- <div class="item1"><img src="images/noun_Email_3809105.png" alt="face"></div>
+          <div class="item2">aaaaaaaa [at] dartmouth [dot] edu</div> -->
+          <!-- <div class="item3">3</div> -->
+        </div>
+      </div>
+      <div class="col-7 col-s-10 icon">
+        <p>Hiroko Kumaki is a sociocultural anthropologist whose research and teaching lies at the intersections of health, environment, and technoscience. Her scholarship examines the affective, material, and conceptual world making around environmental change, particularly as it relates to the experience of health and well-being.<br>
+        <br>
+        Her first book project, “Reasonably Exposed,” asks what it means to live well in a world that embraces certain levels of environmental exposure as “reasonable,” to be accepted by the general public for the broader good that toxigenic practices enable. Focusing on the ongoing aftermath of the nuclear accident in Fukushima, Japan, the project studies how knowledge and practices on environment and health interact and operate across multiple bodies, scales, and registers, to shape divergent political and ethical responses to the radioactive fallout.<br>
+        <br>
+        Hiroko is committed to ethnographic methods that engage and write “from” the lives of interlocutors, rather than “for” or “about” them. While at Dartmouth, she will begin her second project that investigates the relationship between technological innovation and environmental remediation in the U.S. and Japan.
+        </p>
+        </div>
+    </div>
+    <div id="research"></div>
+    <div class="headname">
+      <h2>RESEARCH</h2>
+    </div>
+    <div class="row">
+      <div class="col-4 col-s-10 research_1">
+        <img src="images/sample_nature.jpg" alt="face">
+      </div>
+      <div class="col-7 col-s-10 research_1">
+        <p style="font-weight: bold;">
+          Research Topic 1
+        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-4 col-s-10 research_1">
+        <img src="images/sample_nature.jpg" alt="face">
+      </div>
+      <div class="col-7 col-s-10 research_1">
+        <p style="font-weight: bold;">
+          Research Topic 2
+        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        </div>
+    </div>
+    <footer id="main-footer">
+      <p>Copyright &copy; 2021 Hiroko Kumaki</p>
+    </footer>
+  </body>
+</html> 
